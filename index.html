@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Key University</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100;300;500;700&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,100&display=swap" rel="stylesheet">
+
+
+</head>
+<body>
+    <!-- HEADER -->
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="./images/logo.jpg"></a>
+            <div class="navlink" id="navLinks">
+                <<i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="">ABOUT</a></li>
+                    <li><a href="">COURSE</a></li>
+                    <li><a href="">BLOG</a></li>
+                    <li><a href="">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <!-- Text box -->
+        <div class="textbox">
+            <h1>THE WORLD'S BIGGEST UNIVERSITY</h1>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam, voluptatem nemo quaerat dicta repudiandae <br> neque provident natus a commodi optio vero quos ullam aliquid odio.
+            </p>
+            <a href="" class="herobtn">Visit To Know More</a>
+        </div>
+    </section>
+
+
+    <!-- Js -->
+<script src="https://kit.fontawesome.com/e05b245efd.js" crossorigin="anonymous">
+
+    let navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+</script>
+
+
+
+</body>
+</html>
